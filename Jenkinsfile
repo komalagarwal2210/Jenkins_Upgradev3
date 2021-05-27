@@ -17,7 +17,7 @@ pipeline {
                 build job: 'DeployApplication'
 
             }
-            
+
         }
         stage('Deploy to Production'){
             steps{
@@ -29,3 +29,4 @@ pipeline {
         }
     }
 }
+
