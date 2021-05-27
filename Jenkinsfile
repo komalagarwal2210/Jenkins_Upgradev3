@@ -4,7 +4,7 @@ pipeline {
 
         maven 'LocalMaven'
 
-        jdk 'LocalJK8'
+        jdk 'LocalJava'
 
     }
     stages {
